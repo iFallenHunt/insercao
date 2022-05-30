@@ -8,36 +8,36 @@ namespace SegundoProjeto
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Qual o seu nome completo? ");
-            string nome = Console.ReadLine();
+            Console.WriteLine("What is your full name? ");
+            string name = Console.ReadLine();
 
-            Console.WriteLine("Quantos quartos tem na sua casa? ");
-            int quartos = int.Parse(Console.ReadLine());
+            Console.WriteLine("How many rooms do you have in your house? ");
+            int rooms = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Insira o preço de algum poduto (separado por ,)");
+            Console.WriteLine("Enter the price of some poduct (separated by ,)");
             double prod = double.Parse(Console.ReadLine());
 
 
-            Console.WriteLine("Insira seu Sobrenome, idade e altura (tudo na mesma linha)");
+            Console.WriteLine("Enter your Last name, age and height (all on the same line)");
 
-            string[] completo = Console.ReadLine().Split(' ');
-            string snome = completo[0];
-            int idade = int.Parse(completo[1]);
-            double altura = double.Parse(completo[2]);
+            string[] complete = Console.ReadLine().Split(' ');
+            string snome = complete[0];
+            int age = int.Parse(complete[1]);
+            double height = double.Parse(complete[2]);
 
-            Console.WriteLine("O meu nome é: ");
-            Console.WriteLine(nome);
-            Console.WriteLine("A minha casa tem: ");
-            Console.WriteLine(quartos);
-            Console.WriteLine("O produto custa: ");
+            Console.WriteLine("My name is: ");
+            Console.WriteLine(name);
+            Console.WriteLine("My house does: ");
+            Console.WriteLine(rooms);
+            Console.WriteLine("The product costs: ");
             Console.WriteLine(prod);
 
-            Console.WriteLine("O meu sobrenome é: ");
+            Console.WriteLine("My last name is: ");
             Console.WriteLine(snome);
-            Console.WriteLine("A minha idade é: ");
-            Console.WriteLine(idade);
-            Console.WriteLine("A minha altura é: ");
-            Console.WriteLine(altura);
+            Console.WriteLine("My age is: ");
+            Console.WriteLine(age);
+            Console.WriteLine("My height is: ");
+            Console.WriteLine(height);
 
 
         }
